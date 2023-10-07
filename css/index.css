@@ -1,0 +1,1440 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+        box-sizing: border-box;
+}
+body
+{
+  
+}
+.nav-link 
+{
+    cursor: pointer;
+}
+/*=========================== Start frist nav=================================*/
+.navbar1
+{
+        border-bottom: 1px solid rgba(0,0,0,.04);
+    background-color: transparent;
+      transition: all 1s;
+}
+.li_icon a i {
+    font-size: 14px;
+    line-height: 1;
+    display: grid;
+    align-items: center;
+    color: #fff;
+}
+.li_icon a {
+    border-radius: 50%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    margin-right:5px;
+    color: #fff;
+    width: 38px;
+    height: 38px;
+    transition: all .3s ease-out;
+}
+.li_facebook
+{
+    background-color:#3b5998;
+        
+}
+.li_twitter
+{
+    background-color:  #1da1f2;
+}
+.li_youtub
+{
+    background-color:red;
+}
+.li_insta
+{
+    background-color:  #833ab4;
+}
+.li_linkedin
+{
+    background-color:  #0077b5;
+}
+.searchDoctor
+{
+    height: 48px;
+  
+    background-color: #f2f3f5;
+    display: grid;
+    width: 100%;
+    color: #444;
+    border: 0;
+    border-radius: 42px 0 0 42px;
+    outline: 0;
+    padding: 2px 16px;
+    padding-right: 0;
+    margin-right: 0;
+}
+form .search-btn {
+    background-color: #f2f3f5 !important;
+    border: 0;
+    outline: 0;
+    color: #dd1114;
+    font-size: 18px;
+    padding: 2px 10px;
+    cursor: pointer;
+    border-radius: 0 42px 42px 0;
+    height: 48px;
+    margin-left: -10px;
+    margin-right:10px;
+}
+
+.mainUser_li
+{
+  
+    height: 20px;
+    padding: 10px ;
+    transition: all .3s ease-out;
+}
+.mainUser_li_a
+{
+   
+    border-radius: 3px;
+    padding: 8px 22px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login
+{
+    background-color: #fff;
+     color: #444;
+     border: 1px solid #000;
+}
+.login:hover 
+{
+    text-decoration: none;
+    box-shadow: 0px 3px 3px 3px #ddd;
+}
+.signUp  , .BeDoctor
+{
+	background-color: #dd1114;
+     color: #fff;
+    border: 1px solid transparent  ;
+}
+.signUp:hover  , .BeDoctor:hover
+{
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0px 3px 3px 3px #ddd;
+}
+
+
+/* ======================End first nav===================================*/
+/*=========================== Start nav2=================================*/
+.navbar-brand 
+{
+    position: absolute;
+}
+.myimg
+{
+    position: absolute;
+    height: 106px;
+    bottom:-100%;
+    z-index:84484884;
+    
+}
+.myDropDown
+{
+    position: relative;
+    transition: all 0s !important;
+}
+.dropDownList
+{
+    display: none;
+    position: absolute;
+    left: -20%;
+    width: 220px;
+    background-color: #fff;
+    border-radius: 0 0 6px 6px;
+    z-index: 2;
+        max-height: 60vh;
+    overflow: auto;
+    box-shadow: 0 18px 20px rgba(0,0,0,.1);
+}
+.dropDownList li 
+{
+    
+    border-bottom: 1px solid  rgba(0,0,0,.04);
+}
+
+.dropDownList li a  
+{
+    text-decoration: none;
+    color: black
+   
+}
+.dropDownList li:hover > a
+{
+    text-decoration: none;
+    color: #fff;
+      transition: all 0s !important;
+    
+}
+.dropDownList li 
+{
+    width: 100%;
+    padding: 10px;
+}
+.arrowUp
+{
+    display: none;
+}
+.myDropDown:hover > div .dropDownList 
+{
+    
+  display: block;
+}
+.myDropDown:hover > span .arrowDown 
+{
+    
+  display: none;
+}
+.myDropDown:hover > span .arrowUp 
+{
+    
+  display: inline-block;
+}
+.dropDownList li:hover
+{
+    background-color: #dd1114;
+     color:#fff;
+    border-bottom: 0px solid transparent;
+}
+.nav2 ul li
+{
+    margin-right:10px;
+}
+
+.brandimg
+{
+    position: relative  !important;
+    height:60px !important;
+    top: 0;
+    z-index:0  !important; 
+    
+}
+/* ======================End  nav2 ===================================*/
+/*======================= left right nav start==========================*/
+.leftnav
+{
+    height: 100vh;
+    width: 100%;
+
+    z-index: 1789546;
+    display:none;
+    position: absolute;
+   /* left: -100%;*/
+
+}
+.navContainLeft {
+    position: fixed;
+    z-index: 5858585;
+    top: 0;
+    width: 43%;
+    left: -100%;
+}
+.leftnavBackground
+{
+    position: fixed;
+    z-index: 5858585;
+    top: 0;
+    display: none;
+    width: 57%;
+    right: 0%;
+    background-color:rgba(0,0,0,.6);
+    
+}
+.rnav
+{
+    position: fixed;
+    z-index: 5858585;
+    top: 0;
+    display: none;
+    width:65%;
+    left:0%;
+    background-color:rgba(0,0,0,.6); 
+}
+.rightNva
+{
+    width: 35%;
+    position:fixed;
+    z-index: 5858585;
+    top: 0;
+    right:-100%;
+}
+.logo_img img
+{
+    width: 100px;
+    height: 100px;
+   
+}
+.asi
+{
+    display: none;
+}
+.show
+{
+    display: block;
+}
+.hide
+{
+    display: none;
+    
+}
+.asideList li
+{
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.05);
+}
+.asideList li a
+{
+    text-decoration: none;
+    color: #000;
+    
+}
+.upnav_logo_img img
+{
+    height:60px;
+    width: 78px;
+}
+.containrightNav a , .containLeftNav a
+{
+    color: black;
+    text-decoration: none;
+}
+.containrightNav a:hover , .containLeftNav a:hover
+{
+    text-decoration: none;
+}
+
+.title a
+{
+    text-decoration: none;
+    color: rgba(0,0,0,.5) !important;
+}
+ .title a:hover
+{
+    text-decoration: none;
+}
+/*=======================End left right nav ==========================*/
+/*=======================Start mediaQuery for navBars ==========================*/
+@media screen and (max-width:1222px){
+ *
+ {
+        transition: all 0s;
+    }
+.leftnav
+ {
+        display: block;
+    }
+.navbar
+ {
+        display: none !important;
+     transition: all 1s;
+    }
+.navbar-brand 
+ {
+  
+}
+.myimg
+ {
+    height: 66px;
+    margin: auto
+    
+}
+    
+.whiteCard
+{
+    margin-left: 0px;
+    background-color: #f7f8fa;
+    transform: perspective(0px) rotateY(0eg) translate(0px,0);
+    overflow: hidden;
+}
+.redCard
+{
+    margin-left: 0px;
+    margin-right:0pxpx;
+    background-color: #d34a4a;
+    transform:  perspective(0px) rotateY(0deg) translate(0px,0);
+    overflow: hidden;
+}
+}
+/*=======================End mediaQuery for navBars ==========================*/
+
+/*=======================Start Home Section ==========================*/
+.home{
+    background-color: #2f2e41;
+    width: 100%;
+    height: auto;
+    margin-bottom: -12px;
+    overflow: hidden;
+    transition-delay:all 1s 2s;
+}
+.pcimg {
+    width: 700px;
+    height: 487.516px;
+    margin: auto;
+    animation:rotate 2s ;
+    transform-origin: 0% 120%;
+}
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotateX(90deg) } 
+    to { -webkit-transform: rotateX(0deg) } 
+}
+.pc
+{
+    position: relative;  
+
+}
+
+.pc-text 
+{
+    position: absolute;
+    padding: 5px;
+    height: 60%;
+    top: 6%;
+    left: 15%;
+    width: 70%;
+    text-align: center;
+    
+    
+}
+.pc-text .titleone {
+	
+    font-size:45px;
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: Montserrat-Regular;
+    color: transparent;
+    -webkit-text-stroke: #065b9c;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-shadow: 0 0 6px rgba(0,0,0,.3);
+    animation: animate-h1 .8s ease-out both 1s;
+    margin-top:600px;
+}
+
+.titleone h1
+{
+    text-align: center;
+    max-width: 80%;
+    
+}
+.desc
+{
+    max-width: 80%;
+    line-height: 1.8;
+    color: #fff;
+    text-shadow: 0 0 2px rgba(0,0,0,.3);
+    margin-left: -100%;
+}
+.pc-text  a {
+    padding: 12px 24px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    
+   
+}
+.pc-text  a:hover
+{
+    text-decoration: none;
+    max-width: 80%;
+}
+.link
+{
+   display: none;
+    padding: 20px;
+}
+.join-link
+{
+    background-color: #DD111F;
+    color: #fff;
+}
+.specialties-link
+{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    font-weight: 700;
+    margin-left: 12px;
+     
+   
+}
+/* Start Doctor Phone*/
+.colPhone
+{
+   
+    position: relative;
+        
+}
+.phone
+{
+    overflow: hidden;
+    position: absolute;
+    right: 102px;
+    top: 52px;
+    width: 380px;
+    height: 700px;
+
+ 
+}
+.phone-mockup
+{
+    width:100%;
+    height: 100%;
+    pointer-events: none;
+    animation:mockup 2s ;
+    transform-origin: 0% 120%;
+}
+@-webkit-keyframes mockup {
+    from { -webkit-transform: rotateX(90deg) } 
+    to { -webkit-transform: rotateX(0deg) } 
+}
+.doc-mockup {
+    position: absolute;
+    top: 13%;
+    left:150%;
+    transform: translate(-50%,0);
+    width: 86%;
+    
+}
+/* end Doctor Phone*/
+/* start rotat card*/
+.rotatCard
+{
+    overflow: hidden;
+    width: 100%;
+        
+}
+.whiteCard
+{
+    margin-left: -4px;
+    background-color: #f7f8fa;
+    transform: perspective(620px) rotateY(-8deg) translate(-8px,0);
+    overflow: hidden;
+}
+.redCard
+{
+    margin-left: -6px;
+    margin-right: -2px;
+    background-color: #d34a4a;
+    transform:  perspective(620px) rotateY(8deg) translate(8px,0);
+    overflow: hidden;
+}
+.redCard , .whiteCard
+{
+    font-size: 24px;
+}
+.finalred
+{
+  margin-left: -6px;
+    margin-right: 8px;
+}
+.fistwhite
+{
+      margin-left: 6px;
+}
+.rotatCard2{
+        display: none;
+    }
+@media screen and (max-width:1222px){
+    .rotatCard
+{
+    
+    display: none;
+        
+}
+    .rotatCard2{
+        display: block;
+    }
+ .whiteCard2
+    {
+         background-color: #f7f8fa;
+        overflow: hidden;
+    }
+.redCard2 
+{
+    background-color: #d34a4a;
+    overflow: hidden;
+}
+}
+/* End rotat card*/
+
+/* start How it Work card*/
+.howWork
+{
+    background-color: #ffe4b5;
+        font-family: Montserrat-Regular;
+    margin-top: -10px;
+}
+.workDesc1 
+{
+    float: left;
+    width: 80%;
+  
+}
+.workDesc2
+{
+    float: right;
+    width:20%;
+    
+}
+.workDesc2 i , .workDesc1 i
+{
+    font-size:40px;
+}
+.headTitle
+{
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+    color: #444;
+    font-size: 26px;
+    margin-bottom: 32px;
+    line-height: 1.3em;
+}
+.title2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.disc2 {
+    text-align: center;
+    line-height: 1.5;}
+/*end workHome*/
+
+/*start OurSpecialist*/
+.OurSpecialist
+{
+    overflow: hidden;
+}
+.SpecialidtTitle{
+    color: #037c9d;
+}
+.contain_info a
+{
+    text-decoration: none;
+}
+.contain_info p
+{
+    color: #444;
+    margin-top: 8px;
+    display: grid;
+    align-items: center;
+    padding: 0 8px;
+    text-align: center;
+    max-width: 250px;
+    margin: auto;
+  
+}
+.contain_info:hover > a
+{
+    text-decoration: none;
+}
+.icon-div img
+{
+    width: 66px;
+    height: 66px;
+    margin-bottom: 8px;
+}
+.contain_info
+{
+    border: 1px solid #ddd;
+    padding: 25px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #fff;
+}
+.contain_info:hover
+{
+    background-color:cyan;
+    transform: scale(1.2,1.2) ;
+    border: 0px solid transparent;
+    box-shadow: 3px 3px 3px 3px #ddd;
+    z-index: 88888;
+    
+}
+/*End OurSpecialist*/
+/*start  meet our doctors section */
+.meetDoctor
+{background-color: #2f2e41;
+    transition: all 0s !important;
+}
+.section_img_img {
+    width: 100%;
+    height: 740px;
+    position: relative;
+    object-fit: cover;
+    object-position: top center;
+    margin-left: -100%;
+     transition: all 0s !important;
+}
+.meetDoctor ul li
+{
+    list-style:square !important;
+    color: #fff;
+    padding-left: 10px;
+}
+.meetDoctor ul li p
+{
+    color: #fff;
+    line-height: 1.7;
+    padding: 10px 10px 10px 0px;
+}
+
+/*
+@keyframes ourDoctor {
+    from {left: -100%} 
+    to {left: auto; } 
+}*/
+/*start  download-app-section*/
+.download-app-section {
+
+    background-color: azure;
+    padding: 20px;
+      overflow: hidden;
+    
+}
+.Download_header {
+    font-size: 40px;
+    max-width:400px;
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.8;
+}
+.Download_desc {
+    font-size: 18px;
+    margin-left: 16px;
+    line-height: 1.8;
+    color: #444;
+}
+.Download_img
+{
+    width: 180px;
+  
+   
+}
+.section2_img_img2
+{
+    width: 340px;
+    margin-bottom: -500%;
+}
+
+@media screen and (max-width:1000px){
+    .col_img_phone{display: none !important;}
+}
+/*start contact*/
+.contact 
+    {
+        background-color: #f0f8ff;
+    }
+
+.heading_contact_title
+{
+    font-size: 46px;
+    text-align: center;
+    color: #272727;
+}
+.heading_contact_desc
+{
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto 36px;
+     color: #525252;
+}
+
+.form_container
+{
+    position: relative;
+    width:75%;
+  
+    padding: 22px 0;
+    height: 663px;
+    background-color: #0a3d62;
+    align-self: start;
+    border-radius: 8px;
+    box-shadow: 0 36px 46px rgba(255,255,255,.24);
+}
+.imgs
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imgs/dots.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity:.2;
+}
+.over-lay
+{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255,255,255,.02);
+
+    
+}
+.myform
+{
+  position: absolute;
+    width: 100%;
+    height: 100;
+    top: 0;
+    left: 0;
+    
+}
+.form-group input , .form-group textarea
+{
+     border-radius: 15px;
+    border: 2px solid #cacaca75 !important;
+     background-color: transparent;
+     height: 52px;
+    padding: 0 22px;
+    border-radius: 52px;
+    color: #fff;
+    transition: all .3s ease-out;
+    
+}
+.form-group textarea
+{
+   border-radius: 22px;
+    min-height: 100px;
+}
+.form-group 
+{
+    padding:15px;
+}
+.form-heading 
+{
+   font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+        font-family: Montserrat-Regular;
+}
+
+.myFormbtn
+{
+    background-color: gray;
+     border-radius: 52px;
+     border: 0px solid transparent !important;
+    transition: all 1s;
+}
+.myFormbtn:hover
+{
+  background-color: #fff;  
+}
+
+.father
+{
+    background-color:transparent;
+    border: 1px solid rgba(0,0,0,.1);
+      transition: all 0s !important;
+
+}
+.v-line
+{
+    border-left: 1px solid rgba(0,0,0,.1);
+    padding-left: 10px;
+  
+}
+.childContainerTwo
+{
+      text-align: justify;
+  text-justify: inter-word;
+    display: none;
+      transition: all 0s !important;
+}
+.noTransition
+{
+    transition: all 0s !important;
+}
+.BAckGrond
+{
+  background-color: #fff ;   
+}
+/*End contact*/
+
+/*start our PARTNERS*/
+
+
+.ourPARTNERS_heding
+{
+    font-size:42px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #151515;
+}
+.mySlider
+{
+    height: 200px;
+     border: 1px solid rgba(13, 51, 83, 0.151)
+}
+.item
+{
+    height:200px;
+    border-left: 1px solid rgba(13, 51, 83, 0.151);
+     border-right: 1px solid rgba(13, 51, 83, 0.151);
+    display: flex ; align-items: center}
+.item img
+{
+    width:200px !important;
+   
+    margin: auto;
+    
+    
+}
+/*End our PARTNERS and slider*/
+/*srart footer*/
+.footer {
+	background-color: #fffcf8;
+}
+.social_img
+{
+    width: 180px;
+    margin: auto;
+}
+.social-ul li
+{
+    display:inline-block;
+}
+.social-ul a i {
+    font-size:14px;
+    line-height: 1;
+    align-items: center;
+    padding: 10px;
+    width:38px;
+    height:38px;
+    border-radius: 50%;
+     padding-top:14px;
+
+}
+.social-ul   a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right:5px;
+    color: #fff;
+    
+}
+.social-ul .li_facebook
+{
+    background-color:#3b5998;
+        
+}
+.social-ul .li_twitter
+{
+    background-color:  #1da1f2;
+}
+.social-ul .li_youtub
+{
+    background-color:red;
+}
+
+.social-ul .li_instagram
+{
+    background-color:  #833ab4;
+}
+.social-ul .li_linkedin
+{
+    background-color:  #0077b5;
+}
+.social p span
+{
+    font-size:18px;
+    font-weight:400;
+    line-height: 1.5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #212529;
+}
+.social p 
+{
+    color: #5b5b5b; 
+    font-size: 15px;
+}
+.sectionFooterheading
+{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: #000;
+    font-weight: 700;
+    font-family: Montserrat-Regular;
+}
+.sectionFooter_body ul li
+{
+    padding-bottom:2px;
+    
+}
+.sectionFooter_body ul li a
+{
+    color: #5b5b5b; 
+    font-size: 15px;
+    text-decoration: none;
+}
+.sectionFooter_body ul li a:hover
+{
+    
+    text-decoration: none;
+    
+}
+.imgFooter img
+{
+width: 180px;
+    margin-bottom: 10px;
+}
+/* end Footer*/
+/*============== ********* Start online-consultation ****************========*/
+.allData
+{
+  background-color:   #f7f8fa;
+}
+.DelteOver
+{
+    overflow: hidden;
+}
+.sub-heading
+{
+font-size:20px;
+color: #a9a9a9;
+text-align: center;
+width: 100%;
+    
+}
+.imgDelete , .imgDelete2 , .imgDelete3 , .imgDelete4
+{
+    opacity: 0;
+     transition: all 0s !important;
+}
+
+.number_span
+{
+    font-size: 70px;
+    color: gray;
+    float: left;
+
+}
+.olinetext
+{
+    float: left;
+    
+}
+.text_title
+{
+    color: #daa520;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 8px;
+    padding-top: 11px;
+}
+.text_desc
+{
+    line-height: 1.6;
+    max-width: 320px;
+    color: gray;
+}
+.lol
+{
+    position: relative;
+}
+.descContainer , .descContainer2 , .descContainer3 , .descContainer4{
+    position: absolute;
+    margin-top: 100%;
+    transition: all 0s !important;
+}
+/*========================************start OurPartenrS page***************=======*/
+.OurPartenrs_heading_title
+{
+    font-size: 42px;
+    color: #037c9d;
+    text-align: center;
+    font-weight:500;
+    margin-bottom: 20px;
+
+}
+.prand div
+{
+    float: left;
+    border: 1px solid rgba(0,0,0,.05);
+    height: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.prand img
+{
+    width: 200px;
+}
+.prand div:hover
+{
+    background-color:cyan;
+    transform: scale(1.2,1.2) ;
+    border: 0px solid transparent;
+    box-shadow: 3px 3px 3px 3px #ddd;
+    z-index: 88888;
+}
+/*========================************end OurPartenrS page***************=======*/
+.treatment_in_Germany , .loingForm
+{
+    background-color: #f7f8fa;
+}
+.treatment_in_Germany_title
+{
+    font-size: 28px;
+    color: #141414;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+}
+.iconContains
+{
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 10px 12px rgba(0,0,0,.02);
+  
+}
+.iconContains img
+{
+        width: 120px;
+}
+.iconContains p
+{
+    color: #141414;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+    font-weight:480;
+}
+.treatment_in_Germany_title2 h3
+{
+    font-size:32px;
+    text-transform: uppercase;
+    font-weight:600;
+    color: #000;
+    margin-bottom: 8px;
+}
+.treatment_in_Germany_title2 p
+{
+    font-style: italic;
+    color: #daa520;
+    font-size: 30px;
+}
+.imgCard
+{
+    width: 100%;
+    height: 260px;
+}
+.cardshaawo
+{
+    box-shadow: 0 10px 12px rgba(0,0,0,.02);
+}
+.swissContains
+{
+    background-color: #fff;
+    border-bottom-right-radius:6px;
+      border-bottom-left-radius:6px;
+}
+.swissContains img
+{
+    width: 100%;
+    height: 260px;
+}
+.swissContains p
+{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 80% !important;
+    
+}
+/**startlogin */
+.loginFormContainer
+{
+    background-color: #fefefe;
+    border-top: 4px solid #dd1114;
+    border-radius: 8px;
+    width:400px;
+    min-height: 500px;
+}
+
+.form-img img
+{
+    margin-bottom: 32px;
+    display: grid;
+    justify-items: center;
+    width:100px;
+    
+}
+
+.loginput
+{
+    border-radius: 8px;
+    box-shadow: 0 10px 12px rgba(0,0,0,.02);  
+    border: 1px solid transparent;
+    background-color: transparent;
+    border: 1px solid  #9b9b9b;
+    outline:none;
+
+}
+.formInput
+{
+    position: relative;
+    height: 60px;
+}
+.email_span
+{
+    position: absolute;
+    top:15%;
+    left:15%;
+    background-color: #fff;
+    z-index: 1515;
+}
+
+.email_icon
+{
+    position: absolute;
+    top:20%;
+    right:15%;
+    color: #9b9b9b;
+}
+.submitLoginForm
+{
+    border-radius:35px;
+    background-color: #dd1114;
+    
+}
+.submitLoginForm i
+{
+     font-size: 14px;
+}
+
+/*end login and SignUp*/
+/*aboutus*/
+.about{
+    background-color: #f7f8fa;
+}
+.aboutimgs{
+    height: 704px;
+    overflow: hidden;
+}
+.aboutimg{
+    display: none;
+    position: absolute;
+    right: -40%;
+}
+.img1{
+    display: inline;
+}
+.sideli2{
+    padding: 0 16px;
+    border: 1px rgba(0,0,0,.03) solid;
+    box-shadow: 0 10px 12px rgba(0,0,0,.02);  
+}
+.minili2{
+    padding: 16px 0;
+    color: #323232;
+    cursor: pointer;
+}
+.ellipsis{
+    margin-top: 6px;
+    margin-right: 6px;
+}
+.hiddenul2{
+    display: none;
+}
+.down{
+    transition: all 0.5s !important;
+}
+.abouthead{
+    font-size: 42px;
+    color: #151515;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+/*aboutus*/
+/*ourdoctors*/
+.docdiv{
+    border-radius: 350px 0 0 350px;
+    box-shadow: 0 22px 24px rgba(0,0,0,.1);
+}
+.ourdoctors{
+  
+    background-color: #f7f8fa;
+}
+.dochead{
+    font-size: 34px;
+    margin-bottom: 32px;
+    color: #444;
+    font-weight: 700;
+    text-align: center;
+}
+.selectstyle{
+    padding-right: 22px;
+    width: 100%;
+    height: 100%;
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 4px 14px;
+    border-radius: 3px;
+    position: relative;
+    z-index: 2;
+}
+.docname{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-decoration: underline;
+    color:#222;
+}
+.docname:hover{
+    color:#222;
+}
+.doclisttitle{
+    padding-left: 12px;
+    color: #d2691e;
+}
+.cons{
+    padding:5px 16px 32px 16px;
+    border-radius: 0 3px 3px 0;
+    background-color: #ffe4b5;
+}
+.consprice{
+    text-align: center;
+    padding: 14px 0;
+}
+.consnumber{
+    color: #000;
+    font-size: 28px;;
+    font-weight: 700;
+}
+.constitle{
+    color: #222;
+}
+.consultation{
+    background-color: #323232;
+    color: #fff;
+    padding: 12px 12px;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 14px;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+.consultation:hover{
+    text-decoration: none;
+}
+.docwork{
+    box-shadow: 0 22px 24px rgba(0,0,0,.15);
+    border-radius: 8px 8px 5px 5px;
+    align-self: start;
+    position: sticky;
+    top: 80px;
+    background-color: #2f3640;
+}
+.howtitle{
+    font-size: 18px;
+    padding: 14px 0;
+    border-radius: 8px 8px 0 0;
+    color: #fff;
+    background-color: #daa520;
+    text-align: center;
+    font-weight: 700;
+}
+.howul{
+    padding: 14px;
+    padding-top: 0;
+}
+.howdiv{
+    padding: 14px 0;
+    color: #fff;
+    border-bottom: 1px solid rgba(218,165,32,.7);
+}
+.howdiv .fas, .howdiv .far{
+    color: #daa520;
+    font-size: 18px;
+}
+.howtext{
+    line-height: 1.1;
+}
+.howtext h5{
+    color: #daa520;
+}
+/*ourdoctors*/
+/*bedoctors*/
+.formsection{
+    padding: 42px 52px;
+    border-radius: 22px;
+    background-color: #fafafa;
+    max-width: 1200px;
+    margin: 0 auto;
+    border:1px yellowgreen solid;
+}
+.formlogo{
+    margin-bottom: 32px;    
+}
+.formtitle{
+    font-size: 32px;
+    margin-bottom: 52px;
+    color: #777;
+}
+.inp p{
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 4px;
+}
+.inp input, .inp select{
+    padding-right: 36px;
+    padding-left: 26px;
+    height: 54px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.01);
+    border-radius: 4px;
+    outline-color: red;
+}
+.inp .fa{
+    position: absolute;
+    top: 35%;
+    left:95%;
+    color: #7d7d7d;
+}
+.submitform{
+    padding: 14px 28px;
+    background-color: rgba(221, 17, 20, 0.8);
+    margin-top: 32px;
+    color: #fff;
+    border-radius: 62px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    margin-left: auto;
+    border: 0px !important
+}
+.finalp{
+    color: #777777;
+    margin-top: 37px;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 1.4;
+}
+/*bedoctors*/
+
